@@ -18,6 +18,3 @@ Detailed instructions and code for each machine problem can be found in their re
 - **Instructor:** Dr. Qian Lou
 - **University:** University of Central Florida
 - **Semester:** Fall 2023
-
-## License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
