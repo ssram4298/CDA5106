@@ -1,0 +1,56 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 4096
+L1_ASSOC:		 4
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		1000cc D  100147 D  1000c5    1000bd D  
+Set 	1:		100147 D  1000fc D  1000da D  1000cc D  
+Set 	2:		100147 D  1000cc D  100146 D  1000c5    
+Set 	3:		1000d8 D  100147 D  1000d6 D  1000c5    
+Set 	4:		1000c5    1000bd D  100146 D  100147 D  
+Set 	5:		100147 D  1000c5    1000bd    10007d    
+Set 	6:		1000c5    1000d9 D  1000d6 D  100146 D  
+Set 	7:		1000d9 D  1000d6    10007d    1000fb D  
+Set 	8:		10007d    1000d5    1ec0ce D  1000d9 D  
+Set 	9:		1ec0ce D  1000d9 D  10007d    1000d5    
+Set 	10:		1000d5    10010a D  1000fe D  10007d    
+Set 	11:		10010a D  1000d5    100146 D  10009d    
+Set 	12:		1000c5 D  1000d5    10009d    1000f9    
+Set 	13:		1000ff D  1000d9 D  10009d    100146 D  
+Set 	14:		1000d9 D  1000d4 D  100146 D  10009d    
+Set 	15:		1000fc D  100111 D  10009d    100146 D  
+Set 	16:		100146 D  1000e8 D  1000e7    1000d5    
+Set 	17:		1000e0 D  1000a9 D  10009d    100146 D  
+Set 	18:		100111 D  100146 D  1000e0 D  100120    
+Set 	19:		100146 D  1000e0 D  1000de D  1000fe D  
+Set 	20:		1000c7 D  1000a4    10007c    100146 D  
+Set 	21:		100146 D  1000c7 D  10011f    100004    
+Set 	22:		100004    10007c    100146 D  10011f    
+Set 	23:		10011f    100004    1000a4    100146 D  
+Set 	24:		10007c    100004    1000bd D  1000a4    
+Set 	25:		100146 D  100004    10011f    10007c    
+Set 	26:		100004    1000d5 D  100146 D  10011f    
+Set 	27:		1000d5    10011f    100004    100146 D  
+Set 	28:		10011f    1000c7 D  100146 D  1000d5    
+Set 	29:		1000d5 D  1000c6 D  100146 D  1000d9 D  
+Set 	30:		1000c6 D  1000d3 D  100146 D  1000d6 D  
+Set 	31:		1000c6 D  1000d4 D  100146 D  1000cb D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    2941
+c. number of L1 writes:         36360
+d. number of L1 write misses:   3051
+e. L1 miss rate:                0.059920
+f. number of L1 writebacks:     3369
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        9361

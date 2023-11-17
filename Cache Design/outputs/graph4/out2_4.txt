@@ -1,0 +1,97 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 1024
+L1_ASSOC:		 4
+L2_SIZE:		 16384
+L2_ASSOC:		 8
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		40051a D  400314    7b0339 D  400013    
+Set 	1:		400013    4002a6 D  40051a D  400382 D  
+Set 	2:		400446 D  400013    400482    40051a D  
+Set 	3:		400357    400358 D  400013    400314    
+Set 	4:		4001f2    40031f D  4002f4 D  40031e D  
+Set 	5:		400314    4001f4    400012    4002f4    
+Set 	6:		400012    4001f2    400275    40051a    
+Set 	7:		400012    4003f1 D  400519 D  400358    
+===== L2 contents =====
+Set 	0:		800ac D  8007d D  800aa D  80063 D  800ab D  80066 D  800a3 D  800a9 D  
+Set 	1:		800a7 D  80066 D  800aa D  800a3 D  800ac D  8007e D  800a6 D  8006d D  
+Set 	2:		800ac D  800a8 D  800a3 D  800a7 D  800aa D  80063 D  800ab D  80066 D  
+Set 	3:		800ab D  800a9 D  8006b    800a6 D  8006f D  800ac D  8006c D  800a3 D  
+Set 	4:		8003e    8006b D  800ac D  800aa D  800a3 D  800a6 D  800ab D  800a9 D  
+Set 	5:		800a7 D  800a6 D  800ab D  800a3 D  800a8 D  800ac D  800a9 D  800aa D  
+Set 	6:		8006b D  800a3 D  8006f D  800a9 D  800ac D  800ab D  80079 D  800aa D  
+Set 	7:		800aa D  800a9 D  800ab D  800ac D  800a3 D  800a7 D  8006b    800a8 D  
+Set 	8:		800aa D  800ab D  800a8 D  8007f D  f6067 D  800a3 D  800ac D  800a9 D  
+Set 	9:		800a3 D  800a7 D  800a8 D  800a9 D  800aa D  f6067 D  800ab D  800ac D  
+Set 	10:		800a3 D  8005f D  80085 D  800ac D  800aa D  8007f D  800ab D  800a8 D  
+Set 	11:		f6067 D  800ab D  800a3 D  800ac D  800aa D  800a9 D  800a7 D  80085 D  
+Set 	12:		8007d D  800aa D  800a7 D  800a9 D  800ab D  800ac D  8003e    800a3 D  
+Set 	13:		800a9 D  800aa D  800ab D  800ac D  800a3 D  800a6 D  800a7 D  800a8 D  
+Set 	14:		8007f D  800aa D  800ab D  800ac D  8006a D  800a9 D  800a3 D  80074 D  
+Set 	15:		800aa D  8007e D  800a8 D  8007f D  800ab D  800a9 D  800ac D  800a3    
+Set 	16:		800aa D  800ab D  800ac D  80074 D  800a3 D  f6067 D  800a9 D  8007f D  
+Set 	17:		80074 D  800ac D  800a3 D  800a8 D  800a9 D  80070    800ab D  8007f D  
+Set 	18:		800a3 D  80052    80090    800a8 D  80070 D  800ac D  8007f D  800a9 D  
+Set 	19:		800ac D  800ab D  800a3 D  8007f D  800a7 D  80070 D  8006f D  800a9 D  
+Set 	20:		8006b D  800a3 D  800ac D  80052    8005a D  800a9 D  8003e    800ab D  
+Set 	21:		800ab D  80002    80070 D  800aa D  8006b D  800a9 D  800a3 D  800a8 D  
+Set 	22:		800aa D  800a9 D  8003e    800ab D  8006b D  800a2 D  800a3 D  80002    
+Set 	23:		80002    80060 D  80052    800ab D  8003e    800a2 D  800a3 D  800aa D  
+Set 	24:		800a3 D  800a2 D  80002    8005e D  8003e    800aa D  80052    800ab D  
+Set 	25:		800a9 D  800a3 D  80002    8007f D  800a8 D  800a6 D  8003e    8006d D  
+Set 	26:		800a8 D  800ab D  800a7 D  800a6 D  800a3 D  800a2 D  80002    800a9 D  
+Set 	27:		800aa D  8006d D  800ab D  800a2 D  80063 D  800a3 D  80002    800a9 D  
+Set 	28:		800ab D  800a3 D  8005e D  80062 D  8006f    800a2 D  8006b D  80063 D  
+Set 	29:		800a2 D  8006d D  80063 D  800ab D  8006f D  80074 D  8007d D  800a3 D  
+Set 	30:		80063 D  8006b D  800a2 D  8007f D  800a3 D  80070    800ab D  8007d D  
+Set 	31:		800a3 D  80063 D  80086 D  8006a D  800a2 D  800ab D  8006b D  80074 D  
+Set 	32:		8005e D  800a3 D  800a8 D  800a9 D  800a2 D  800aa D  80062    800ab D  
+Set 	33:		800a8 D  800a2 D  800a3 D  800a7 D  80067 D  800ab D  800a6 D  800aa D  
+Set 	34:		800ab D  800a2 D  800a7 D  80062    800aa D  800a3 D  800a8 D  800a6 D  
+Set 	35:		800ab D  800a3 D  800a8 D  8005e D  800a9 D  800aa D  800a2 D  80062    
+Set 	36:		800aa D  800a2 D  800ab D  800a8 D  8005e D  800a3 D  80072 D  80062    
+Set 	37:		800aa D  8005e    800a2 D  8003e    800a3 D  80062    8006c D  800ab D  
+Set 	38:		800a9 D  800a2 D  800aa D  8006c D  80060 D  800ab D  8007f D  80062    
+Set 	39:		80086 D  8007d D  8006c D  800a2 D  80060 D  8003e    8005e    800ab D  
+Set 	40:		8006a    800ab D  800a2 D  8007f D  8003e    8006c D  800a9 D  800aa D  
+Set 	41:		8006c D  800a8 D  800a6 D  8003e    800ab D  8006a    800a9 D  800a2 D  
+Set 	42:		800a9 D  800a2 D  800a8 D  8006b D  8006c D  8003e    800ab D  8006a    
+Set 	43:		800aa D  800a2 D  8006a    800ab D  8004e    800a7 D  800a8 D  800a9 D  
+Set 	44:		8007c D  8006a    80062 D  800ab D  800a8 D  800a9 D  8004e    800a2 D  
+Set 	45:		800a9 D  8004e    8006c D  800a2 D  800aa D  8007f D  800ab D  80088 D  
+Set 	46:		800a9 D  8004e    800aa D  800ab D  800a2 D  800a8 D  8006d D  8006c D  
+Set 	47:		800a8 D  800ab D  800aa D  800a2 D  80088 D  8004e    8006d D  800a9 D  
+Set 	48:		800a2 D  80088 D  80073    8006a    8007c D  800a9 D  800aa D  800ab D  
+Set 	49:		8006d D  8003e    800a8 D  8004e    800a7 D  800ab D  80054 D  800a2 D  
+Set 	50:		800a6 D  8007d D  80088 D  800ab D  8004e    800a7 D  800a8 D  800a2 D  
+Set 	51:		800a8 D  800a9 D  800a5 D  800a2 D  800a7 D  8007c D  800aa D  800ab D  
+Set 	52:		800a9 D  8008f    80063 D  800ab D  800a5 D  800aa D  8007c D  800a2 D  
+Set 	53:		800a8 D  800a7 D  80063 D  800a2 D  800a9 D  800aa D  800ab D  8008f    
+Set 	54:		8008f    80086 D  800aa D  8007f D  800a2 D  800ab D  80088 D  80073 D  
+Set 	55:		8006b D  800ab D  8006e D  8008f    800aa D  800a9 D  8005e D  800a2 D  
+Set 	56:		8006e D  8007d D  80067 D  8005e D  800aa D  800a2 D  800ab D  8008f    
+Set 	57:		800a7 D  800a8 D  8008f    800ab D  8005e D  800a9 D  800a6 D  800a2 D  
+Set 	58:		800a8 D  80063 D  800a2 D  8003d    800a9 D  8006a D  800ab D  8008f    
+Set 	59:		800a2 D  80039    800a5 D  8006a D  800aa D  800a9 D  800ab D  8008f    
+Set 	60:		80063    800a2 D  8008f    8006b D  800aa D  80039    8006a    800ab D  
+Set 	61:		80039    800ab D  8006c D  800a2 D  8006b D  8003d    800aa D  8006a D  
+Set 	62:		8003d    800a9 D  80069 D  8006c D  800aa D  800ab D  80039    800a2 D  
+Set 	63:		80062 D  800a2 D  800ab D  80069 D  80039    80065 D  800a9 D  800aa D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    8449
+c. number of L1 writes:         36360
+d. number of L1 write misses:   5821
+e. L1 miss rate:                0.142700
+f. number of L1 writebacks:     6689
+g. number of L2 reads:          14270
+h. number of L2 read misses:    2770
+i. number of L2 writes:         6689
+j. number of L2 write misses:   0
+k. L2 miss rate:                0.194114
+l. number of L2 writebacks:     1768
+m. total memory traffic:        4538

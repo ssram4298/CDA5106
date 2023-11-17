@@ -1,0 +1,40 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 4096
+L1_ASSOC:		 8
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		20018a    20017a D  20028e D  2001cf    2001ab    20028d D  2001d1 D  200198 D  
+Set 	1:		2001c1 D  20028d D  2000fb    20028e D  2001d1 D  20013b    200153 D  200198 D  
+Set 	2:		20028d D  200223 D  20013b    200241    200149    2001c1 D  200198 D  20018a    
+Set 	3:		20018a    2001b0 D  20028c D  2001bd D  20028d D  2001c1 D  2001ac D  20028e D  
+Set 	4:		20017a D  20018a    20028d D  200149    20028e D  20018f D  20023f    2000f9    
+Set 	5:		2001b2 D  20017a    20023f    20018a    20028e D  20028d D  2000fa    200009    
+Set 	6:		2001ad D  2001ac D  20023f    200009    20028d D  20018a    2001b2 D  2000f9    
+Set 	7:		2000f9    2001b2 D  20028d D  2000fa    200009    2001ac    200149    20023f    
+Set 	8:		3d819c D  2000fa    2001b2 D  200149    200009    20023f    2000f9    20017b D  
+Set 	9:		20023f    2000fa    3d819c D  200009    20028d D  2000f9    2001aa    2001b2 D  
+Set 	10:		2001aa    20028d D  20023f    2000fa    2001ab D  200009    200214 D  2001fc D  
+Set 	11:		200214 D  20013a    200009    20023f    20028c D  2001ab    2001aa    20028d D  
+Set 	12:		20018a D  2001ab    20028d D  20013a    20023f    2001f2    20018f D  2001aa    
+Set 	13:		20013a    20028d D  20028c D  2001b3 D  2001fe D  2001ab D  2001b2 D  20018d D  
+Set 	14:		2001fd D  20028c D  20028d D  2001b2 D  20013a    20018d D  2001ad D  2001a7 D  
+Set 	15:		2001f8 D  20018d D  20013a    20028d D  2001a9 D  20028c D  200197 D  200222 D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    2567
+c. number of L1 writes:         36360
+d. number of L1 write misses:   2798
+e. L1 miss rate:                0.053650
+f. number of L1 writebacks:     3056
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        8421

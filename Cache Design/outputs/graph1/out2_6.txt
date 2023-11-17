@@ -1,0 +1,536 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 32768
+L1_ASSOC:		 2
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		1000c D  10015 D  
+Set 	1:		10015 D  1000c D  
+Set 	2:		1000c D  10015 D  
+Set 	3:		1000c D  10015 D  
+Set 	4:		10015 D  1000c D  
+Set 	5:		10015 D  1000c D  
+Set 	6:		10015 D  1000c D  
+Set 	7:		1000c D  10015 D  
+Set 	8:		1000c D  10015 D  
+Set 	9:		1000c D  10015 D  
+Set 	10:		10015 D  1000c D  
+Set 	11:		10015 D  1000c D  
+Set 	12:		10015 D  1000c D  
+Set 	13:		1000c D  10015 D  
+Set 	14:		10015 D  1000c D  
+Set 	15:		10015 D  1000c D  
+Set 	16:		10015 D  1000c D  
+Set 	17:		10015 D  1000e D  
+Set 	18:		10012    1000e D  
+Set 	19:		1000e D  10015 D  
+Set 	20:		1000c D  10015 D  
+Set 	21:		10015 D  1000e D  
+Set 	22:		1000c D  10015 D  
+Set 	23:		1000c D  10015 D  
+Set 	24:		10015 D  1000c D  
+Set 	25:		10015 D  1000c D  
+Set 	26:		10015 D  1000c D  
+Set 	27:		10015 D  1000c D  
+Set 	28:		10015 D  1000c D  
+Set 	29:		1000c D  10015 D  
+Set 	30:		1000e    10015 D  
+Set 	31:		1000c D  10015 D  
+Set 	32:		10015 D  1000c D  
+Set 	33:		10015 D  1000c D  
+Set 	34:		10015 D  1000c D  
+Set 	35:		10015 D  1000c D  
+Set 	36:		1000c D  10015 D  
+Set 	37:		10015 D  1000c D  
+Set 	38:		1000c D  10015 D  
+Set 	39:		1000c D  10015 D  
+Set 	40:		10015 D  1000c D  
+Set 	41:		10015 D  1000c D  
+Set 	42:		10015 D  1000c D  
+Set 	43:		1000c D  10015 D  
+Set 	44:		1000c D  10015 D  
+Set 	45:		10011 D  10015 D  
+Set 	46:		10015 D  1000c D  
+Set 	47:		10011 D  10015 D  
+Set 	48:		10011 D  10015 D  
+Set 	49:		10015 D  1000c D  
+Set 	50:		10015 D  10011 D  
+Set 	51:		10015 D  1000c D  
+Set 	52:		1000c D  10015 D  
+Set 	53:		10015 D  1000c D  
+Set 	54:		10011 D  10015 D  
+Set 	55:		1000c D  10015 D  
+Set 	56:		1000c D  10015 D  
+Set 	57:		10015 D  1000c D  
+Set 	58:		10015 D  1000c D  
+Set 	59:		10015 D  1000c D  
+Set 	60:		10015 D  1000c D  
+Set 	61:		1000c D  10015 D  
+Set 	62:		1000c D  10015 D  
+Set 	63:		1000c D  10015 D  
+Set 	64:		1000c D  10015 D  
+Set 	65:		10015 D  1000c D  
+Set 	66:		10015 D  1000c D  
+Set 	67:		10015 D  1000c D  
+Set 	68:		1000c D  10015 D  
+Set 	69:		10015 D  1000c D  
+Set 	70:		1000f D  10015 D  
+Set 	71:		1000c D  10015 D  
+Set 	72:		10015 D  1000c D  
+Set 	73:		10015 D  1000c D  
+Set 	74:		1000c D  10015 D  
+Set 	75:		1000c D  10015 D  
+Set 	76:		1000c D  10015 D  
+Set 	77:		1000c D  10015 D  
+Set 	78:		1000c D  10015 D  
+Set 	79:		1000c D  10015 D  
+Set 	80:		1000c D  10015 D  
+Set 	81:		1000c D  10015 D  
+Set 	82:		10015 D  1000c D  
+Set 	83:		10015 D  1000c D  
+Set 	84:		10015 D  1000c D  
+Set 	85:		10015 D  1000c D  
+Set 	86:		10015 D  1000c D  
+Set 	87:		1000c D  10015 D  
+Set 	88:		10015 D  1000c D  
+Set 	89:		1000c D  10015 D  
+Set 	90:		10015 D  1000c D  
+Set 	91:		1000c D  10015 D  
+Set 	92:		1000c D  10015 D  
+Set 	93:		1000c D  10015 D  
+Set 	94:		1000c D  10015 D  
+Set 	95:		10015 D  1000c D  
+Set 	96:		1000c D  10015 D  
+Set 	97:		1000c D  10015 D  
+Set 	98:		10015 D  1000c D  
+Set 	99:		10015 D  1000c D  
+Set 	100:		10015 D  1000c D  
+Set 	101:		1000c D  10015 D  
+Set 	102:		1000c D  10015 D  
+Set 	103:		1000c D  10015 D  
+Set 	104:		1000c D  10015 D  
+Set 	105:		1000c D  10015 D  
+Set 	106:		1000c D  10015 D  
+Set 	107:		10015 D  1000c D  
+Set 	108:		1000c D  10015 D  
+Set 	109:		1000c D  10015 D  
+Set 	110:		10015 D  1000c D  
+Set 	111:		10015 D  1000c D  
+Set 	112:		1000c D  10015 D  
+Set 	113:		10015 D  1000c D  
+Set 	114:		1000c D  10015 D  
+Set 	115:		1000c D  10015 D  
+Set 	116:		1000c D  10015 D  
+Set 	117:		10015 D  1000c D  
+Set 	118:		1000c D  10015 D  
+Set 	119:		10015 D  1000c D  
+Set 	120:		10015 D  1000c D  
+Set 	121:		10015 D  10007    
+Set 	122:		10015 D  10007    
+Set 	123:		10007    10015 D  
+Set 	124:		10015 D  10007    
+Set 	125:		10007    10015 D  
+Set 	126:		10007    1000d D  
+Set 	127:		10007    1000d D  
+Set 	128:		1000c D  10015 D  
+Set 	129:		1000c D  10015 D  
+Set 	130:		1000c D  10015 D  
+Set 	131:		1000c D  10015 D  
+Set 	132:		1000c D  10015 D  
+Set 	133:		1000c D  10015 D  
+Set 	134:		1000c D  10015 D  
+Set 	135:		10015 D  1000c D  
+Set 	136:		10015 D  1000c D  
+Set 	137:		1000c D  10015 D  
+Set 	138:		1000c D  10015 D  
+Set 	139:		10015 D  1000c D  
+Set 	140:		10015 D  1000c D  
+Set 	141:		10015 D  1000c D  
+Set 	142:		1000d D  10015 D  
+Set 	143:		1000c D  10015 D  
+Set 	144:		10015 D  1000c D  
+Set 	145:		1000c D  10015 D  
+Set 	146:		10015 D  1000a    
+Set 	147:		1000c D  10015 D  
+Set 	148:		1000a    1000b D  
+Set 	149:		10015 D  10000    
+Set 	150:		10000    10014 D  
+Set 	151:		10000    1000a    
+Set 	152:		1000a    10000    
+Set 	153:		10000    10014 D  
+Set 	154:		10000    10014 D  
+Set 	155:		10014 D  10000    
+Set 	156:		1000c D  10014 D  
+Set 	157:		10015 D  10014 D  
+Set 	158:		10014 D  10015 D  
+Set 	159:		1000d D  10014 D  
+Set 	160:		1000c    10014 D  
+Set 	161:		10014 D  10015 D  
+Set 	162:		1000c    10014 D  
+Set 	163:		1000c    10014 D  
+Set 	164:		10014 D  1000c    
+Set 	165:		1000c    10014 D  
+Set 	166:		1000c    10014 D  
+Set 	167:		10015 D  10014 D  
+Set 	168:		1000d    10014 D  
+Set 	169:		1000d    10014 D  
+Set 	170:		1000d    10014 D  
+Set 	171:		1000d    10014 D  
+Set 	172:		1000c D  1000d    
+Set 	173:		10015 D  10014 D  
+Set 	174:		10015 D  10014 D  
+Set 	175:		10015 D  10014 D  
+Set 	176:		1000d    10014 D  
+Set 	177:		10015 D  10014 D  
+Set 	178:		10015 D  10014 D  
+Set 	179:		10015 D  10014 D  
+Set 	180:		10014 D  10015 D  
+Set 	181:		10014 D  10015 D  
+Set 	182:		10014 D  10015 D  
+Set 	183:		10014 D  10015 D  
+Set 	184:		10014 D  10015 D  
+Set 	185:		10014 D  10015 D  
+Set 	186:		10014 D  1000d D  
+Set 	187:		1000d D  10014 D  
+Set 	188:		1000d    10014 D  
+Set 	189:		1000d D  10014 D  
+Set 	190:		10015 D  10014 D  
+Set 	191:		10015 D  10014 D  
+Set 	192:		10015 D  10014 D  
+Set 	193:		10015 D  10014 D  
+Set 	194:		1000c D  10014 D  
+Set 	195:		1000d D  10014 D  
+Set 	196:		1000d D  10014 D  
+Set 	197:		10015 D  10014 D  
+Set 	198:		10014 D  1000d D  
+Set 	199:		10014 D  1000d    
+Set 	200:		10015 D  10014 D  
+Set 	201:		10015 D  10014 D  
+Set 	202:		10015 D  10014 D  
+Set 	203:		10015 D  10014 D  
+Set 	204:		10014 D  10015 D  
+Set 	205:		10014 D  10015 D  
+Set 	206:		10014 D  10015 D  
+Set 	207:		10015 D  10014 D  
+Set 	208:		10014 D  10015 D  
+Set 	209:		10014 D  10015 D  
+Set 	210:		10015 D  10014 D  
+Set 	211:		10014 D  10015 D  
+Set 	212:		1000d D  10014 D  
+Set 	213:		1000d D  10014 D  
+Set 	214:		10014 D  1000d D  
+Set 	215:		10014 D  10015 D  
+Set 	216:		10015 D  10014 D  
+Set 	217:		10014 D  10015 D  
+Set 	218:		10014 D  10015 D  
+Set 	219:		1000c D  10014 D  
+Set 	220:		1000c D  10014 D  
+Set 	221:		1000c D  10014 D  
+Set 	222:		10014 D  1000c D  
+Set 	223:		10014 D  1000c D  
+Set 	224:		10015 D  10014 D  
+Set 	225:		10014 D  10015 D  
+Set 	226:		10014 D  10015 D  
+Set 	227:		10014 D  10015 D  
+Set 	228:		10014 D  10015 D  
+Set 	229:		10015 D  10014 D  
+Set 	230:		10015 D  1000f D  
+Set 	231:		1000f D  10015 D  
+Set 	232:		10015 D  1000f D  
+Set 	233:		10015 D  1000f D  
+Set 	234:		1000d D  10015 D  
+Set 	235:		1000f D  10015 D  
+Set 	236:		1000f D  10015 D  
+Set 	237:		1000f D  10015 D  
+Set 	238:		1000f D  10015 D  
+Set 	239:		1000f D  10015 D  
+Set 	240:		10015 D  1000e    
+Set 	241:		1000f D  10015 D  
+Set 	242:		10015 D  1000f D  
+Set 	243:		1000f D  10015 D  
+Set 	244:		1000c D  10015 D  
+Set 	245:		1000c D  10015 D  
+Set 	246:		1000e D  10015 D  
+Set 	247:		1000d D  10015 D  
+Set 	248:		10015 D  1000f D  
+Set 	249:		1000f D  10015 D  
+Set 	250:		10015 D  1000c D  
+Set 	251:		10015 D  1000f D  
+Set 	252:		1000d D  1000c D  
+Set 	253:		1000d D  10015 D  
+Set 	254:		1000f D  10015 D  
+Set 	255:		10015 D  1000f D  
+Set 	256:		1000f D  10015 D  
+Set 	257:		10015 D  1000f D  
+Set 	258:		10015 D  1000f D  
+Set 	259:		1000d D  10015 D  
+Set 	260:		10015 D  1000f D  
+Set 	261:		10015 D  1000f D  
+Set 	262:		1000f D  10015 D  
+Set 	263:		1000f D  10015 D  
+Set 	264:		1000f D  10015 D  
+Set 	265:		10015 D  1000f D  
+Set 	266:		1000f D  10015 D  
+Set 	267:		10015 D  1000f D  
+Set 	268:		10015 D  1000f D  
+Set 	269:		10015 D  1000f D  
+Set 	270:		1000e D  10015 D  
+Set 	271:		1000f D  10015 D  
+Set 	272:		10015 D  1000e D  
+Set 	273:		10015 D  1000e D  
+Set 	274:		10015 D  1000f D  
+Set 	275:		10015 D  1000f D  
+Set 	276:		1000f D  10015 D  
+Set 	277:		1000f D  10013 D  
+Set 	278:		1000f D  10013 D  
+Set 	279:		10013 D  1000f D  
+Set 	280:		1000f D  1000c D  
+Set 	281:		1000f D  1000c D  
+Set 	282:		1000c D  1000f D  
+Set 	283:		1000f D  1000c D  
+Set 	284:		1000f D  10013 D  
+Set 	285:		1000e D  1000f D  
+Set 	286:		10013 D  1000f D  
+Set 	287:		1000f D  1000e D  
+Set 	288:		1000c D  1000f D  
+Set 	289:		1000f D  10013 D  
+Set 	290:		1000f D  1000c D  
+Set 	291:		10013 D  1000f D  
+Set 	292:		1000f D  1000c D  
+Set 	293:		1000d D  1000f D  
+Set 	294:		1000f D  1000d D  
+Set 	295:		1000d D  1000f D  
+Set 	296:		1000d D  1000f D  
+Set 	297:		1000f D  1000d D  
+Set 	298:		1000d D  1000f D  
+Set 	299:		10013 D  1000d D  
+Set 	300:		1000a D  1000f D  
+Set 	301:		1000a    1000d D  
+Set 	302:		1000d D  10013 D  
+Set 	303:		10013 D  1000d D  
+Set 	304:		10013 D  1000f D  
+Set 	305:		1000a D  1000f D  
+Set 	306:		10013 D  1000f D  
+Set 	307:		10013 D  1000f D  
+Set 	308:		10013 D  1000f D  
+Set 	309:		10010 D  1000c D  
+Set 	310:		10013 D  0    
+Set 	311:		10011 D  10013 D  
+Set 	312:		10011 D  10013 D  
+Set 	313:		10013 D  1000c D  
+Set 	314:		10013 D  0    
+Set 	315:		10013 D  0    
+Set 	316:		1000a D  1000c D  
+Set 	317:		10013 D  1000d D  
+Set 	318:		1000d D  1000a    
+Set 	319:		10013 D  1000e D  
+Set 	320:		1000f D  1000a D  
+Set 	321:		1000d D  1000f D  
+Set 	322:		10000    10013 D  
+Set 	323:		10013 D  0    
+Set 	324:		10010    10013 D  
+Set 	325:		10013 D  0    
+Set 	326:		10013 D  0    
+Set 	327:		10013 D  0    
+Set 	328:		10013 D  0    
+Set 	329:		10013 D  0    
+Set 	330:		10010 D  1000c D  
+Set 	331:		10010 D  1000c D  
+Set 	332:		1000f D  10010 D  
+Set 	333:		10010 D  10013 D  
+Set 	334:		10010 D  1000c D  
+Set 	335:		10013 D  10010 D  
+Set 	336:		10013 D  10010 D  
+Set 	337:		10013 D  10010 D  
+Set 	338:		10013 D  10010 D  
+Set 	339:		10010 D  1000c D  
+Set 	340:		10013 D  10010 D  
+Set 	341:		10013 D  10010 D  
+Set 	342:		10013 D  10010 D  
+Set 	343:		10013 D  10010 D  
+Set 	344:		10013 D  10010 D  
+Set 	345:		10010 D  1000d D  
+Set 	346:		1000d D  10010 D  
+Set 	347:		1000d D  10010 D  
+Set 	348:		1000d D  10010 D  
+Set 	349:		1000f D  1000d D  
+Set 	350:		1000f D  10010 D  
+Set 	351:		1000f D  10010 D  
+Set 	352:		10013 D  10010 D  
+Set 	353:		10013 D  10010 D  
+Set 	354:		10010 D  1000f D  
+Set 	355:		10013 D  10010 D  
+Set 	356:		1000f D  10010 D  
+Set 	357:		10010 D  1000c D  
+Set 	358:		1000f D  10010 D  
+Set 	359:		1000f D  10010 D  
+Set 	360:		10010 D  1000c D  
+Set 	361:		1000c D  10010 D  
+Set 	362:		10013 D  10010 D  
+Set 	363:		10013 D  10010 D  
+Set 	364:		10010 D  1000c D  
+Set 	365:		10013 D  10010 D  
+Set 	366:		1000d D  10010 D  
+Set 	367:		10010 D  1000d D  
+Set 	368:		10014 D  10010 D  
+Set 	369:		10014 D  1000d D  
+Set 	370:		10014 D  1000f D  
+Set 	371:		10010 D  10014 D  
+Set 	372:		10014 D  10010 D  
+Set 	373:		10014 D  10010 D  
+Set 	374:		10014 D  10010 D  
+Set 	375:		10014 D  10010 D  
+Set 	376:		1000f D  10014 D  
+Set 	377:		10007    10014 D  
+Set 	378:		10014 D  10007    
+Set 	379:		10014 D  10010 D  
+Set 	380:		10014 D  10010 D  
+Set 	381:		10007    10014 D  
+Set 	382:		10014 D  10007    
+Set 	383:		10014 D  1000c D  
+Set 	384:		10014 D  1000c D  
+Set 	385:		1000c D  1000f D  
+Set 	386:		10014 D  1000c D  
+Set 	387:		10014 D  10010 D  
+Set 	388:		10007    10014 D  
+Set 	389:		10014 D  10010 D  
+Set 	390:		10010 D  10014 D  
+Set 	391:		10010 D  10014 D  
+Set 	392:		10014 D  10010 D  
+Set 	393:		10014 D  10010 D  
+Set 	394:		10010 D  10014 D  
+Set 	395:		10014 D  10010 D  
+Set 	396:		10007    10014 D  
+Set 	397:		10014 D  10010 D  
+Set 	398:		10010 D  10014 D  
+Set 	399:		10014 D  1000f D  
+Set 	400:		10010 D  10014 D  
+Set 	401:		10010 D  10014 D  
+Set 	402:		10014 D  10010 D  
+Set 	403:		10014 D  10010 D  
+Set 	404:		10014 D  10007    
+Set 	405:		10010 D  10014 D  
+Set 	406:		10014 D  10007    
+Set 	407:		10007    10014 D  
+Set 	408:		1000b D  10007    
+Set 	409:		10007    10014 D  
+Set 	410:		10010 D  10014 D  
+Set 	411:		10010 D  10014 D  
+Set 	412:		1000b D  10014 D  
+Set 	413:		10010 D  10014 D  
+Set 	414:		10010 D  10014 D  
+Set 	415:		10014 D  10010 D  
+Set 	416:		10014 D  1000b D  
+Set 	417:		10010 D  10014 D  
+Set 	418:		10010 D  10014 D  
+Set 	419:		1000b D  10014 D  
+Set 	420:		1000b D  10014 D  
+Set 	421:		10007    1000b    
+Set 	422:		10010 D  10014 D  
+Set 	423:		10007    1000b    
+Set 	424:		10007    10014 D  
+Set 	425:		10007    10014 D  
+Set 	426:		10007    10014 D  
+Set 	427:		10009    10014 D  
+Set 	428:		10009    10014 D  
+Set 	429:		10009    10014 D  
+Set 	430:		10009    10014 D  
+Set 	431:		10009    10014 D  
+Set 	432:		10010 D  10014 D  
+Set 	433:		10009    10007    
+Set 	434:		10009    10014 D  
+Set 	435:		10010 D  10014 D  
+Set 	436:		10010 D  10014 D  
+Set 	437:		10010 D  10014 D  
+Set 	438:		10010 D  10014 D  
+Set 	439:		1000d D  1000b D  
+Set 	440:		1000d D  1000b D  
+Set 	441:		10014 D  1000b D  
+Set 	442:		10010 D  10014 D  
+Set 	443:		10014 D  1000b D  
+Set 	444:		10014 D  1000b D  
+Set 	445:		1000b D  10014 D  
+Set 	446:		10014 D  1000b D  
+Set 	447:		10014 D  1000b D  
+Set 	448:		10014 D  1000b D  
+Set 	449:		1000b D  10014 D  
+Set 	450:		10014 D  1000b D  
+Set 	451:		10014 D  1000d D  
+Set 	452:		1000b D  10014 D  
+Set 	453:		10014 D  1000b D  
+Set 	454:		10014 D  1000d D  
+Set 	455:		1000b D  10014 D  
+Set 	456:		1ec0c D  1000f D  
+Set 	457:		1ec0c D  10014 D  
+Set 	458:		1000f D  1000b D  
+Set 	459:		10014 D  1ec0c D  
+Set 	460:		1000b D  10014 D  
+Set 	461:		10014 D  1000b D  
+Set 	462:		10014 D  1000f D  
+Set 	463:		1000f D  10014 D  
+Set 	464:		1ec0c D  1000f D  
+Set 	465:		10014 D  1000f D  
+Set 	466:		1000f D  10014 D  
+Set 	467:		1000f D  1000d D  
+Set 	468:		1000f D  10014 D  
+Set 	469:		10014 D  1000b D  
+Set 	470:		1000b D  10014 D  
+Set 	471:		1000b D  10014 D  
+Set 	472:		10014 D  1000b D  
+Set 	473:		1000f D  10014 D  
+Set 	474:		1000b D  10014 D  
+Set 	475:		1000b D  10014 D  
+Set 	476:		1000d D  10014 D  
+Set 	477:		10014 D  1000d D  
+Set 	478:		1000f D  10014 D  
+Set 	479:		1000b D  10014 D  
+Set 	480:		10014 D  1000b D  
+Set 	481:		10014 D  1000c D  
+Set 	482:		1000b D  10014 D  
+Set 	483:		10014 D  1000b D  
+Set 	484:		1000b D  10014 D  
+Set 	485:		1000b D  10014 D  
+Set 	486:		10014 D  1000f D  
+Set 	487:		10014 D  1000f D  
+Set 	488:		10014 D  1000f D  
+Set 	489:		10014 D  1000c D  
+Set 	490:		1000b D  10014 D  
+Set 	491:		1000b D  10014 D  
+Set 	492:		1000f D  10014 D  
+Set 	493:		1000f D  10014 D  
+Set 	494:		10014 D  1000b D  
+Set 	495:		10014 D  1000b D  
+Set 	496:		10014 D  1000b D  
+Set 	497:		10014 D  1000b D  
+Set 	498:		10014 D  1000b D  
+Set 	499:		1000b D  10014 D  
+Set 	500:		10011    10014 D  
+Set 	501:		10011    10014 D  
+Set 	502:		1000f D  10011    
+Set 	503:		10011    10014 D  
+Set 	504:		10011    1000c D  
+Set 	505:		10011    10014 D  
+Set 	506:		10014 D  10011    
+Set 	507:		10011    10014 D  
+Set 	508:		10011    10014 D  
+Set 	509:		10014 D  1000b D  
+Set 	510:		10014 D  1000b D  
+Set 	511:		1000b D  10014 D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    752
+c. number of L1 writes:         36360
+d. number of L1 write misses:   2129
+e. L1 miss rate:                0.028810
+f. number of L1 writebacks:     1324
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        4205

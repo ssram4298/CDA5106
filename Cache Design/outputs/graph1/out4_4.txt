@@ -1,0 +1,56 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 8192
+L1_ASSOC:		 8
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		100158 D  1000fa D  100146 D  1000bd D  1000cc D  100147 D  100157 D  1000c5    
+Set 	1:		1000cc D  100146 D  10014c D  1000fc D  10014e D  1000da D  100154 D  100147 D  
+Set 	2:		1000c5    100147 D  100154 D  100151 D  1000c6    1000cc D  100146 D  100158 D  
+Set 	3:		1000c5    1000d8 D  100146 D  100151 D  1000d6 D  100147 D  1000bd D  100158 D  
+Set 	4:		100158 D  100146 D  1000bd D  1000c5    10007c    1000d6 D  100151 D  100147 D  
+Set 	5:		100146 D  1000bd    1000d9 D  10007d    1000c5    100147 D  100157 D  100158 D  
+Set 	6:		1000de D  1000d6 D  1000f2 D  100157 D  100146 D  1000c5    100158 D  1000d9 D  
+Set 	7:		10007d    100157 D  100146 D  1000d9 D  100158 D  1000bd    1000d6    1000fb D  
+Set 	8:		1000d9 D  1000fe D  100146 D  100157 D  10007d    1000d5    1ec0ce D  100158 D  
+Set 	9:		100146 D  1000d9 D  1000d5    10014d D  100158 D  100153 D  10007d    1ec0ce D  
+Set 	10:		1000d9 D  100146 D  10007d    1000fe D  1000d5    10010a D  100158 D  1000d7    
+Set 	11:		10010a D  10009d    1000d5    1ec0ce D  100158 D  100153 D  100146 D  100151 D  
+Set 	12:		1000fa D  1000f9    10009d    1000d5    100146 D  100158 D  1000c5 D  10007c    
+Set 	13:		1000ff D  100146 D  100145 D  1000d9 D  100157 D  100158 D  10009d    100111 D  
+Set 	14:		1000d4 D  1000d9 D  100145 D  100158 D  1000fe    100146 D  10009d    1000e8 D  
+Set 	15:		100157 D  100111 D  10009d    100145 D  100158 D  100146 D  1000fc D  100156 D  
+Set 	16:		1000e8 D  1000d5    100146 D  100145 D  100158 D  100111 D  1ec0ce D  1000e7    
+Set 	17:		100158 D  1000e8 D  10009d    100146 D  1000e0 D  1000a9 D  10007d    100152 D  
+Set 	18:		100111 D  100120    1000fb D  100146 D  10009d    1000fe D  1000e0 D  1000a4    
+Set 	19:		100146 D  1000e0 D  1000de D  100145 D  100158 D  100152 D  100157 D  1000fe D  
+Set 	20:		10011f    1000c7 D  100158 D  10007c    1000a4    100146 D  1000d6 D  1000b4 D  
+Set 	21:		100004    100157 D  100146 D  100156 D  100145 D  1000d6 D  1000c7 D  10011f    
+Set 	22:		100146 D  1000d6 D  100145 D  100004    10011f    1000ff D  100111 D  10007c    
+Set 	23:		10011f    1000a4    10007c    100146 D  1000dd D  100004    1000d7 D  1000bd D  
+Set 	24:		100146 D  10011f    1000fb D  10007c    1000a4    100004    1000dd D  1000bd D  
+Set 	25:		1000fe D  1000da    10011f    100146 D  10014d D  100004    10007c    1000bd D  
+Set 	26:		10007b    100145 D  1000d5 D  100004    100152 D  1000c7 D  100146 D  10011f    
+Set 	27:		100145 D  1000c6 D  1000d5    100156 D  100157 D  100004    10011f    100146 D  
+Set 	28:		10011f    100146 D  1000c6 D  1000d6 D  1000c4 D  1000d5    1000d7 D  1000c7 D  
+Set 	29:		1000c6 D  100145 D  100146 D  1000d5 D  1000fa D  1000d9 D  1000e8 D  1000d7 D  
+Set 	30:		1000d3 D  1000fa D  100145 D  100146 D  1000d9 D  1000d6 D  1000fe D  1000c6 D  
+Set 	31:		100146 D  1000d3 D  1000d6 D  1000c6 D  1000d4 D  1000cb D  100145 D  1000e8 D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    1643
+c. number of L1 writes:         36360
+d. number of L1 write misses:   2311
+e. L1 miss rate:                0.039540
+f. number of L1 writebacks:     2397
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        6351

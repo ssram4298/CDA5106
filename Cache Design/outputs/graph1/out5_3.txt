@@ -1,0 +1,28 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 4096
+L1_ASSOC:		 32
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		8006ac    8003e6    8008ff    8005ee D  800026    8003e5    8004eb    8007cb    8008fd    80062b D  80063d D  800a35 D  8008fe    80063f D  800526    8005e9 D  800a34 D  800a37 D  800629    8006ca D  800525    800628    8006af    800a36 D  800a38 D  8006aa    800a39 D  8006ab    f60672 D  800637 D  8003ea    800660 D  
+Set 	1:		800a36 D  800026    800a34 D  800a32 D  8008fd    8003ec    800a39 D  8008fe    800637 D  800a33 D  8006c9 D  8003ea    8003e9    800a38 D  800025    f60672 D  8003e6    800629    800744 D  8006cf D  8005e9    800a35 D  800a37 D  8006aa    8004eb    80063d D  80054c D  800704 D  8004ec    8006ca D  800660 D  8006af D  
+Set 	2:		800a36 D  800a37 D  8007dc D  8003ea    80088c D  800629    800025    800852 D  800524    80063e D  800a33 D  8006b7 D  8004ec    8007f2 D  8006ae D  800a34 D  8003e5    800637 D  800a38 D  800704 D  800660 D  8004eb    8006c9 D  800904    800628    800a32 D  800026    8006aa    8008fe    800a35 D  8006b1 D  8008fd    
+Set 	3:		800026    8006aa    800628    800704 D  800637 D  8006b1    800a32 D  800a34 D  8004eb    8007d9 D  800a37 D  800a35 D  80088b D  8006b0 D  80065f D  800a33 D  8003e9    800525    800a31 D  800025    8008fd    8006c9 D  800a36 D  8007e3 D  8006ae    8004ea    8008fe    800852 D  8006a7 D  800a38 D  8003e5    8006ed D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    2493
+c. number of L1 writes:         36360
+d. number of L1 write misses:   2627
+e. L1 miss rate:                0.051200
+f. number of L1 writebacks:     2886
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        8006

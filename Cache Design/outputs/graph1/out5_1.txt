@@ -1,0 +1,25 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 1024
+L1_ASSOC:		 32
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 LRU
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		2000fa7    2001531 D  3d819c8 D  2000f94    2000fa5    20018f4 D  20028d2 D  20018fc D  2000096    2002232 D  20028d0 D  2000097    20028d1 D  20028cf D  200009b    2000099    200009a    2001c11 D  2001f8f D  20018a2    2001c12    20017a5    2000098    2001ac7    20018a4    200214a    20018a3    20017a4 D  2002412    20018a0    2000f96    2000095    
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    8099
+c. number of L1 writes:         36360
+d. number of L1 write misses:   5597
+e. L1 miss rate:                0.136960
+f. number of L1 writebacks:     6442
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        20138

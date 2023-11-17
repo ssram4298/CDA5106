@@ -1,0 +1,40 @@
+===== Simulator configuration =====
+BLOCKSIZE:		 32
+L1_SIZE:		 2048
+L1_ASSOC:		 4
+L2_SIZE:		 0
+L2_ASSOC:		 0
+REPLACEMENT POLICY:	 FIFO
+INCLUSION PROPERTY:	 non-inclusive
+trace_file:		 ./traces/gcc_trace.txt
+===== L1 contents =====
+Set 	0:		20028d D  20018a    200198 D  20028e D  
+Set 	1:		20028d D  2001c1 D  20013b    200153 D  
+Set 	2:		200223 D  2001c1    200241    20028d D  
+Set 	3:		20028e D  2001ac D  20018a    20028d D  
+Set 	4:		20018f D  20017a D  20018a    2000f9    
+Set 	5:		200009    20017a    20028e D  2000fa    
+Set 	6:		20023f    2000f9    200009    2001b2 D  
+Set 	7:		2000fa    200009    20023f    2001ac    
+Set 	8:		200009    2000f9    2000fa    20017b D  
+Set 	9:		2000fa    200009    2001b2 D  2000f9    
+Set 	10:		20023f    200214    200009    20028d D  
+Set 	11:		200009    2001aa    20023f    2001ab    
+Set 	12:		20018a D  2001aa    20018f D  2001f2    
+Set 	13:		20018d D  20028d D  20028c D  20013a    
+Set 	14:		20028d D  2001ad D  20013a    20018d D  
+Set 	15:		20028c D  20013a    20018d D  2001f8 D  
+===== Simulation results (raw) =====
+a. number of L1 reads:          63640
+b. number of L1 read misses:    5782
+c. number of L1 writes:         36360
+d. number of L1 write misses:   4701
+e. L1 miss rate:                0.104830
+f. number of L1 writebacks:     5390
+g. number of L2 reads:          0
+h. number of L2 read misses:    0
+i. number of L2 writes:         0
+j. number of L2 write misses:   0
+k. L2 miss rate:                0
+l. number of L2 writebacks:     0
+m. total memory traffic:        15873
