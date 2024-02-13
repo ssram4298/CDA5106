@@ -1,0 +1,7 @@
+COMMAND
+sim.py smith 3 ./traces/gcc_trace.txt
+OUTPUT
+number of predictions:     2000000
+number of mispredictions:  831428
+misprediction rate:        41.57%
+FINAL COUNTER CONTENT:     3
